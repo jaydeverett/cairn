@@ -10,7 +10,7 @@ The name comes from the small stack of stones hikers add to as a trail marker. E
 
 ---
 
-> **Starting with zero technical experience?** Paste this README's URL into a [claude.ai](https://claude.ai) conversation (with web search enabled) and ask Claude to help you set this up. Claude will walk you through installing the prerequisites and bring you to the point where cairn's interactive setup flow takes over. See [Starting from absolute zero](#starting-from-absolute-zero) below for the full path.
+> **Starting with zero technical experience?** Paste this README's URL into a [claude.ai](https://claude.ai) conversation and ask Claude to help you set this up. Claude will walk you through installing the prerequisites and bring you to the point where cairn's interactive setup flow takes over. See [Starting from absolute zero](#starting-from-absolute-zero) below for the full path.
 
 ---
 
