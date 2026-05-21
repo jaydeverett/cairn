@@ -10,6 +10,10 @@ The name comes from the small stack of stones hikers add to as a trail marker. E
 
 ---
 
+> **Starting with zero technical experience?** Paste this README's URL into a [claude.ai](https://claude.ai) conversation (with web search enabled) and ask Claude to help you set this up. Claude will walk you through installing the prerequisites and bring you to the point where cairn's interactive setup flow takes over. See [Starting from absolute zero](#starting-from-absolute-zero) below for the full path.
+
+---
+
 ### Already familiar with Claude Code? TL;DR
 
 Clone the repo. Rename the folder. Open Claude Code in it. Type anything. Claude reads `CLAUDE.md`, sees this is a fresh install, runs `SETUP.md` to walk you through 5 questions (about 5 minutes), then writes your customized `CLAUDE.md`, creates your topic folders, and removes itself. After that, the working pattern: one `CLAUDE.md` per project, numbered topic folders each with a `Brainstorm.md` (append-only session log) and `Master.md` (distilled current state), a `Process_Meta_Notes.md` for workflow observations, and a hard rule that every session ends with the user typing "wrap it up" so Claude produces the next-session prompt before context is lost.
@@ -48,9 +52,9 @@ The pitch is precise. Cairn is necessary but not sufficient. It is the layer mos
 
 ## Beyond cairn
 
-You will need other tools to ship most projects: a code editor, a git host, a deployment platform, whatever else your project specifically requires. You do not need to know which ones before you start. The cairn workflow finds the right tools for the job as the project surfaces them, with Claude recommending specific options based on what you are actually building rather than a generic stack you have to choose from upfront.
+You will need other tools to ship most projects: a code editor, a git host, a deployment platform, whatever else your project specifically requires. You do not need to know which ones before you start. The cairn workflow finds the right tools for the job as the project surfaces them, with Claude recommending specific options based on what your project requires rather than a generic stack you have to choose from upfront.
 
-This is the real leverage. The intimidating-maze feeling of confronting the whole tool ecosystem at once does not happen with cairn, because you encounter tools one at a time, in the moment the project genuinely needs them, with a recommendation already in hand.
+This is the real leverage. The intimidating-maze feeling of confronting the whole tool ecosystem at once does not happen with cairn, because you encounter tools one at a time, at the moment the project needs them, with a recommendation already in hand.
 
 ## How it works
 
@@ -89,10 +93,29 @@ Most projects fit naturally into 4-7 top-level topics. The cairn setup flow will
 
 ## Getting started
 
-### Quick start
+There are two paths. Pick the one that matches your starting point.
 
-1. **Clone or download this repo**, or click the green "Use this template" button on the cairn GitHub page if you want a fresh copy under your own account.
-2. **Rename the folder** from `cairn/` to your project name.
+### Starting from absolute zero
+
+If you have never installed a developer tool, never opened a terminal, and have no idea where to begin: open [claude.ai](https://claude.ai) in your browser, start a new conversation, make sure web search is enabled, and paste this:
+
+> I want to use this for a project but I haven't done anything technical before. Can you help me set it up?
+>
+> https://github.com/jaydeverett/cairn
+
+Claude will read the README and walk you through the full chain: installing a code editor (typically VS Code), installing Node.js, installing Claude Code, downloading cairn either as a ZIP file or via git, opening Claude Code in the folder, and finally letting cairn's interactive setup flow take over. Claude paces this one step at a time, waits for confirmation at each stage, and adapts to your operating system (Mac, Windows, or Linux).
+
+Two practical notes before you start:
+
+- **You will need a Claude account.** Free works for the setup conversation itself. For running Claude Code on a real project, you will likely want a Claude Pro or Max subscription (simpler, predictable monthly cost) rather than pay-as-you-go API credits. Claude can explain the trade-off during setup.
+- **Budget one to two hours for first-time setup**, mostly waiting on installers. After this, you never repeat it.
+
+Once Claude Code is running in your cairn folder, type anything and the interactive setup flow takes over. Five questions, about five minutes, and you have a working project.
+
+### Quick start (if you already have Claude Code)
+
+1. **Get the cairn folder onto your computer.** Either clone the repo with git, download it as a ZIP from the [cairn GitHub page](https://github.com/jaydeverett/cairn) (green "Code" button → "Download ZIP"), or click "Use this template" to make a fresh copy under your own GitHub account.
+2. **Rename the folder** from `cairn/` (or `cairn-main/` if you used the ZIP) to your project name.
 3. **Open Claude Code in that folder.** Install instructions are at [claude.com/claude-code](https://claude.com/claude-code) if you have not set it up yet.
 4. **Type anything to Claude.** `start`, `hi`, `let's go`. Claude will see this is a fresh install, read `SETUP.md`, and walk you through five questions to customize the project.
 5. **Answer the questions.** About five minutes total. At the end Claude writes your customized `CLAUDE.md`, creates your topic folders, and offers to start your first session right then.
