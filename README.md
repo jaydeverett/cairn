@@ -1,6 +1,6 @@
 # Cairn
 
-**The missing layer between Claude Code and a finished project.**
+**The project starter kit for building anything with Claude Code. No prior technical experience required.**
 
 Most people who try to build something real with Claude Code hit the same wall. The first conversation is great. You make progress. You close the window. Two days later you open a new conversation and Claude has no idea what you decided, what you built, or what to do next. You spend ten minutes re-explaining context. By session four, decisions are scattered across multiple chat logs and half-finished files, and you can no longer reconstruct the current state of the project even with effort.
 
