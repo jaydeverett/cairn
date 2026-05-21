@@ -6,8 +6,6 @@ Most people who try to build something real with Claude Code hit the same wall. 
 
 Cairn solves this. It is a folder structure, an instruction file Claude reads automatically, and a session ritual that produces a clean handoff at the end of every conversation. The AI's memory becomes the files. Each session leaves the project in a state the next session can pick up cold. The work compounds across weeks instead of resetting every time.
 
-The name comes from the small stack of stones hikers add to as a trail marker. Each session you place one more stone. The next person, or future-you two weeks later, can find the trail.
-
 ---
 
 > **Starting with zero technical experience?** Open a Claude conversation and paste this:
