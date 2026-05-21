@@ -1,0 +1,18 @@
+# OS-level
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code local-only files
+.claude/settings.local.json
+
+# Sensitive content — projects may add their own here
+# Examples (uncomment if applicable):
+# .env
+# .env.local
+# secrets.md
