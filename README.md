@@ -10,7 +10,9 @@ The name comes from the small stack of stones hikers add to as a trail marker �
 
 ### Already familiar with Claude Code? TL;DR
 
-Clone this repo. Rename the folder. Edit `CLAUDE.md` to describe your project. Rename the topic folders to match your project (or leave them and override). Read [docs/workflow.md](docs/workflow.md) and [docs/optional-patterns.md](docs/optional-patterns.md). The 25-minute version: a `CLAUDE.md` per project, numbered topic folders each with a `Brainstorm.md` (append-only session log) and `Master.md` (distilled current state), a `Process_Meta_Notes.md` for workflow observations, and a hard rule that every session ends with the user typing "wrap it up" so Claude produces the next-session prompt before context is lost.
+Clone the repo. Rename the folder. Open Claude Code in it. Type anything. Claude reads `CLAUDE.md`, sees this is a fresh install, runs `SETUP.md` to walk you through 5 questions (~5 min), then writes your customized `CLAUDE.md`, creates your topic folders, and removes itself. After that: a `CLAUDE.md` per project, numbered topic folders each with a `Brainstorm.md` (append-only session log) and `Master.md` (distilled current state), a `Process_Meta_Notes.md` for workflow observations, and a hard rule that every session ends with the user typing "wrap it up" so Claude produces the next-session prompt before context is lost.
+
+See [docs/workflow.md](docs/workflow.md) for the session ritual, [docs/optional-patterns.md](docs/optional-patterns.md) for advanced patterns.
 
 ---
 
@@ -71,37 +73,31 @@ Most projects fit naturally into 4-7 top-level topics. Pick names that match you
 
 ## Getting started
 
-### Quick start (5 minutes)
+### Quick start
 
-1. Clone or download this repo.
-2. Rename the folder from `cairn/` to your project name.
-3. Open `CLAUDE.md`. Edit the bracketed `[PLACEHOLDERS]` at the top. The section that starts with "Customize me" tells you what to consider adding.
-4. Rename the topic folders (`01_Foundation/`, `02_Production_Setup/`, etc.) to match your project. If you are not sure yet, leave them — you can rename later.
-5. Delete the contents of `01_Foundation/Brainstorm.md` and `01_Foundation/Master.md`. They are populated with a worked example (a podcast project called Sourdough Lab) so you can see what filled-in files look like. Keep them around in a separate folder while you draft your own if you want to refer to them.
-6. Open Claude Code in the project folder. Start your first session by saying what you want to work on. Claude will read `CLAUDE.md` automatically.
+1. **Clone or download this repo** (or click the green "Use this template" button at the top of the cairn GitHub page if you want a fresh copy under your own account).
+2. **Rename the folder** from `cairn/` to your project name.
+3. **Open Claude Code in that folder.** (Install instructions: [claude.com/claude-code](https://claude.com/claude-code).)
+4. **Type anything to Claude** — `start`, `hi`, `let's go`, whatever. Claude will see this is a fresh install, read `SETUP.md`, and walk you through five questions to customize the project.
+5. **Answer the questions.** About 5 minutes total. At the end Claude writes your customized `CLAUDE.md`, creates your topic folders, and offers to start your first session right away.
+
+That's it. No manual file editing. No folder structure to memorize before you can start. The setup flow is the user-facing entry point; the structure underneath it is the cairn pattern.
 
 ### Your first session
 
-A typical first session opens with you saying something like:
+If you say yes to starting immediately after setup, Claude moves directly into the first topic you chose and begins asking questions one at a time. When you're ready to stop, type **"wrap it up"** and Claude produces the deliverables that let your next session resume cleanly: an updated `Brainstorm.md`, an updated `Master.md`, a session summary, and a "next session prompt" you can paste at the start of next time.
 
-> "Let's start working on this project. I want to figure out the foundational questions first — what this is, who it's for, what the core format is. Read CLAUDE.md and the Brainstorm/Master pair in 01_Foundation, then ask me one question at a time to work through the core foundation questions."
-
-Claude will read the files, ask the first question, and the session is underway. When you are ready to stop, type **"wrap it up"** and Claude will produce the deliverables that let your next session resume cleanly.
+If you'd rather come back later, Claude gives you the next-session prompt at the end of setup. Save it somewhere you can find it.
 
 ### After session one
 
-You will have:
-- A `Brainstorm.md` with your first dated session in it
-- A `Master.md` with whatever you decided
-- A "next session prompt" Claude generated — save it somewhere you can find it next time, or just remember the file path
-
-Paste the next-session prompt at the start of your next conversation. Claude will pick up where you left off. Repeat.
+Paste the next-session prompt at the start of your next conversation. Claude reads the files, confirms the context, and picks up where you left off. Repeat.
 
 ## The worked example
 
-`01_Foundation/Brainstorm.md` and `Master.md` are populated with a worked example: the foundation phase of a hypothetical podcast called Sourdough Lab. It shows what two sessions of real thinking look like when captured in the cairn format, including how decisions get numbered (F1, F2...), how open questions get flagged (F-OQ1, F-OQ2...), and how the resume point at the end of each session feeds into the next.
+A populated example project (a hypothetical podcast called Sourdough Lab) lives in [`.cairn/example/`](.cairn/example/) — `Brainstorm.md` and `Master.md` showing what two sessions of real thinking look like in the cairn format. Read it once before your first session if you want to see the shape of filled-in files. It includes how decisions get numbered (F1, F2...), how open questions get flagged (F-OQ1, F-OQ2...), and how the resume point at the end of each session feeds into the next.
 
-You can delete the example content once you have read it and started your own. Keep it around as long as it is useful.
+The example does not interfere with your project. It lives in the hidden `.cairn/` directory and only loads if you open it directly. Delete it anytime.
 
 ## Optional patterns
 

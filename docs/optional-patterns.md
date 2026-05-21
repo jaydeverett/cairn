@@ -6,7 +6,7 @@ Patterns that work well for some projects but are not part of the minimal cairn 
 
 Some projects accumulate enough decisions that referencing them by name gets clumsy. ("Remember the decision about format from session 3?" — which one?) Numbering each decision and each open question creates a stable, short reference.
 
-**Convention:** Decisions get a per-topic prefix and a number (`F1`, `F2` for "Foundation"; `P1`, `P2` for "Production"). Open questions get `OQ` after the prefix: `F-OQ1`, `P-OQ1`. The worked example in `01_Foundation/` uses this pattern.
+**Convention:** Decisions get a per-topic prefix and a number (`F1`, `F2` for "Foundation"; `P1`, `P2` for "Production"). Open questions get `OQ` after the prefix: `F-OQ1`, `P-OQ1`. The worked example at `.cairn/example/` uses this pattern.
 
 When to adopt:
 - You're past ~10 decisions and still referencing them across sessions

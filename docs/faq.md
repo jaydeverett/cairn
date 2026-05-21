@@ -56,9 +56,9 @@ If the Master.md changes are big, the wrap step naturally produces them. If they
 
 ### What do I do with the example "Sourdough Lab" content?
 
-Read it once, then delete it and start your own. The example exists to show what filled-in files look like — not to bias your project's structure or tone. Keep the directory structure, replace the content.
+It lives in `.cairn/example/` after setup — out of your way, but readable if you want to see what filled-in `Brainstorm.md` and `Master.md` files look like. Two sessions of a hypothetical podcast project, showing decision numbering, open question tracking, and the resume-point pattern.
 
-If you want to keep the example for reference, move it to a separate folder (`_example/` or similar) before you start your own work.
+Read it once before your first session if you want a reference. Delete `.cairn/example/` whenever you don't need it anymore — it doesn't affect your project.
 
 ### What if Claude doesn't follow the workflow?
 

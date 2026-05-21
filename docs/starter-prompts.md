@@ -5,13 +5,15 @@ Concrete prompts you can paste at the start of a Claude Code session. Adapt the 
 ## The first session of a brand-new project
 
 ```
-This is the first session for [project name]. Before we start: I'm using the cairn template, so please read CLAUDE.md to understand the workflow and file structure. Then I'd like to work through the foundation questions one at a time — what this project is, who it's for, and what the core format or approach looks like. I'll signal when we're done with "wrap it up." Start by asking your first question.
+This is the first session for [project name]. I just finished cairn setup. Let's begin work on [starting topic — the one you picked during setup]. Read CLAUDE.md and [starting topic folder]/Brainstorm.md, then ask me the first foundational question one at a time. I'll signal when we're done with "wrap it up."
 ```
 
-## Resuming after the first session (no resume point yet)
+(If you said yes to "start the first session now" during setup, Claude already moved into this mode — you don't need to paste this prompt for the very first session.)
+
+## Resuming after the first session (no resume point saved)
 
 ```
-Continuing work on [project name]. Read the Brainstorm and Master files in 01_Foundation, then ask me one question at a time to keep working through the foundation questions. Pick up from the most recent session.
+Continuing work on [project name]. Read the Brainstorm and Master files in [folder name], then ask me one question at a time to keep working through this topic. Pick up from the most recent session in the Brainstorm.
 ```
 
 ## Resuming with a resume point
