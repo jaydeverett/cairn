@@ -10,7 +10,13 @@ The name comes from the small stack of stones hikers add to as a trail marker. E
 
 ---
 
-> **Starting with zero technical experience?** Paste this README's URL into a [claude.ai](https://claude.ai) conversation and ask Claude to help you set this up. Claude will walk you through installing the prerequisites and bring you to the point where cairn's interactive setup flow takes over. See [Starting from absolute zero](#starting-from-absolute-zero) below for the full path.
+> **Starting with zero technical experience?** Open a Claude conversation and paste this:
+>
+> > I want to use this for a project but I haven't done anything technical before. Can you help me set it up?
+> >
+> > https://github.com/jaydeverett/cairn
+>
+> Claude will walk you through installing everything you need and bring you to the point where cairn's interactive setup flow takes over. See [Starting from absolute zero](#starting-from-absolute-zero) below for the full path.
 
 ---
 
@@ -97,7 +103,7 @@ There are two paths. Pick the one that matches your starting point.
 
 ### Starting from absolute zero
 
-If you have never installed a developer tool, never opened a terminal, and have no idea where to begin: open [claude.ai](https://claude.ai) in your browser, start a new conversation, make sure web search is enabled, and paste this:
+If you have never installed a developer tool, never opened a terminal, and have no idea where to begin: open a Claude conversation and paste this:
 
 > I want to use this for a project but I haven't done anything technical before. Can you help me set it up?
 >
